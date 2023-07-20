@@ -1,0 +1,19 @@
+/* Styles for ProgressBar.module.css */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    flex-wrap: wrap; /* Added this to wrap the progress items to the next line if necessary */
+}
+
+/* Styles for individual progress items */
+.container .progressItem {
+    width: 156px;
+    background-color: #d9d9d9;
+    color: #333;
+    margin: 20px;
+    text-align: center;
+    cursor: pointer;
+}
